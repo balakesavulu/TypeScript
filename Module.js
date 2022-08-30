@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var MainModule_1 = require("./MainModule");
+console.log(MainModule_1.t);
+var MainModule_2 = require("./MainModule");
+(0, MainModule_2.M)();
+var MainModule_3 = require("./MainModule");
+var n = new MainModule_3.N();
+n.k = 20;
+n.l = 30;
+console.log(n.sum3());
